@@ -1,0 +1,34 @@
+.filter-panel {
+	margin-bottom: 20px;
+}
+
+.filter-panel input {
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table th, table td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+}
+
+table th {
+	background-color: #f4f4f4;
+}
+
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+  transform: scale(1.05);
+}
