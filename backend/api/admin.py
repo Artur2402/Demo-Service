@@ -13,7 +13,7 @@ class CompanyAdmin(admin.ModelAdmin):
     list_filter = ('status', 'registration_date', 'activity')
     
     # Поля, доступные в форме
-    fields = ('inn', 'ogrn', 'name', 'address', 'director', 'activity', 'registration_date', 'status')
+    fields = ('inn', 'ogrn', 'name', 'address', 'director', 'activity', 'registration_date', 'status', 'latitude', 'longitude')
     
     # Поля только для чтения
     readonly_fields = ()

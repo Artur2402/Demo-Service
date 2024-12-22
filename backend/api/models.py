@@ -10,6 +10,9 @@ class Company(models.Model):
   activity = models.TextField(verbose_name='Вид деятельности', blank=True, null=True)
   registration_date = models.DateField(verbose_name='Дата регистрации', blank=True, null=True)
   status = models.CharField(max_length=50, verbose_name='Статус', default='Активна')
+  latitude = models.FloatField(verbose_name='Широта',null=True, blank=True)
+  longitude = models.FloatField(verbose_name='Долгота',null=True, blank=True)
+  
 
   def __str__(self):
     return self.name
