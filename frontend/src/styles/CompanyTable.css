@@ -1,0 +1,17 @@
+/* styles/CompanyTable.css */
+.table-auto {
+	width: 100%;
+	table-layout: auto; /* Таблица растягивается по ширине */
+	border-collapse: collapse; /* Убираем промежутки между ячейками */
+}
+
+.table-auto th,
+.table-auto td {
+	padding: 12px; /* Увеличиваем отступы */
+	text-align: left; /* Текст выравнивается по левому краю */
+	border: 1px solid #ddd; /* Легкая рамка для разделения */
+}
+
+.table-auto th {
+	background-color: #f8f9fa; /* Легкий цвет для заголовков */
+}
